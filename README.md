@@ -1,21 +1,21 @@
 # Multiclass Classification using Ensemble (ResNet50 + InceptionV3 + EffNetB7)
 
-Dataset used: [Intel Image Classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification) </br>
+<b>Dataset used:</b> [Intel Image Classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification) </br>
 This data contains natural scene images classified under 6 categories ['buildings', 'forest', 'glacier', 'mountain', 'sea', 'street'] </br>
-Training size: 14000 </br>
-Testing size: 3000 </br>
+<b>Training size:</b> 14000 </br>
+<b>Testing size:</b> 3000 </br>
 
 ## Synopsis
 1. <b>ResNet50</b> - Data augmentation, batchnormalization, dropout with 0.3 rate, learning_rate = 0.0001 (Adam)
 2. <b>InceptionV3</b> - Data augmentation, batchnormalization, dropout with 0.3 rate, learning_rate = 0.0001 (RMSprop)
 3. <b>EfficientNetB7</b> - Data augmentation, GlobalAveragePoolong2D, batchnormalization, dropout with 0.3 rate, learning_rate = 0.0001 (Adam)
-4. <b>Ensemble Model</b> - Test classification accuracy: <b>0.9297</b></br></br>
+4. <b>Ensemble Model</b> - Test classification accuracy: <b>0.9297</b></br>
 
 It is observed that the ensemble of the three CNN architectures mentioned above performs better than each individual architecture. The Jupyter notebook provides step-by-step implementation of the classification pipeline right from importing the libraries to assessing the ensemble model's performance on the test dataset.</br></br>
 
-Loss function used: Categorical cross-entropy</br>
-Performance metrics used: Accuracy, precision, recall and f1-score</br>
-Optimization algorithms used: Adam performed well for the ResNet50 and EfficientNetB7 architectures whereas RMSprop performed better on InceptionV3</br>
+<b>Loss function used:</b> Categorical cross-entropy</br>
+<b>Performance metrics used:</b> Accuracy, precision, recall and f1-score</br>
+<b>Optimization algorithms used:</b> Adam performed well for the ResNet50 and EfficientNetB7 architectures whereas RMSprop performed better on InceptionV3</br>
 
 The notebook can also be implemented on Kaggle [here](https://www.kaggle.com/code/adityavipradas/ensemble-93-acc-resnet50-inceptionv3-effnetb7).</br>
 The detailed version of the notebook along with verbose CNN training can be found [here]().</br>
