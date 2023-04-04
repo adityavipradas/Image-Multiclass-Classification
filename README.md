@@ -28,7 +28,6 @@ Here are a few inferences of the ensemble model on the test data along with the 
 ![download](https://user-images.githubusercontent.com/3115883/229651075-d8c1ffca-abac-49a8-9c2f-c29038d93535.png)</br>
 ![download](https://user-images.githubusercontent.com/3115883/229651099-faf9dbdf-7e2d-4aea-949c-f307a965403e.png)</br>
 ![download](https://user-images.githubusercontent.com/3115883/229651103-15805114-6a80-4de4-a300-07276af0da6f.png)</br>
-![download](https://user-images.githubusercontent.com/3115883/229651110-bbcf9e56-c5eb-45b1-a4e4-7ed0a2d87693.png)</br>
 ![download](https://user-images.githubusercontent.com/3115883/229651115-f8f18864-e582-4e01-8380-80441307044f.png)</br>
 ![download](https://user-images.githubusercontent.com/3115883/229651119-b2cfbec8-b87a-4a4e-86c8-ab1bb661eb8c.png)
 
