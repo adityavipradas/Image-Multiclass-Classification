@@ -18,12 +18,12 @@ It is observed that the ensemble of the three CNN architectures mentioned above 
 <b>Optimization algorithms used:</b> Adam performed well for the ResNet50 and EfficientNetB7 architectures whereas RMSprop performed better on InceptionV3</br>
 
 The notebook can also be implemented on Kaggle [here](https://www.kaggle.com/code/adityavipradas/ensemble-93-acc-resnet50-inceptionv3-effnetb7).</br>
-The detailed version of the notebook along with verbose CNN training can be found [here]().</br>
-You can download the best weights for each CNN architecture [here]().</br>
+
+I have used <b>TensorFlow 2.10.1</b> to enable GPU acceleration on my windows machine.</br>
 
 Here are a few inferences of the ensemble model on the test data along with the confusion matrix.</br>
 
-![download](https://user-images.githubusercontent.com/3115883/229651169-5eab629c-c0c8-434c-b13b-7a3a023bd034.png)</br>
+![download](https://user-images.githubusercontent.com/3115883/229651169-5eab629c-c0c8-434c-b13b-7a3a023bd034.png = 4x4)</br>
 ![download](https://user-images.githubusercontent.com/3115883/229651013-b1b58152-88c0-453c-874d-d52342c0f3d5.png)</br>
 ![download](https://user-images.githubusercontent.com/3115883/229651058-8c7a9daf-f4e1-4029-9687-d2170500f505.png)</br>
 ![download](https://user-images.githubusercontent.com/3115883/229651075-d8c1ffca-abac-49a8-9c2f-c29038d93535.png)</br>
