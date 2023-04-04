@@ -1,4 +1,4 @@
-# Multiclass Classification using Ensemble (ResNet50 + InceptionV3 + EffNetB7)
+# Image Multiclass Classification using Ensemble (ResNet50 + InceptionV3 + EffNetB7)
 
 <b>Dataset used:</b> [Intel Image Classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification) </br>
 This data contains natural scene images classified under 6 categories ['buildings', 'forest', 'glacier', 'mountain', 'sea', 'street'] </br>
